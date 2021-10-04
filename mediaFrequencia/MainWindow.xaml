@@ -1,0 +1,21 @@
+﻿<Window x:Class="mediaFrequencia.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:mediaFrequencia"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="300">
+    <Grid>
+        <Label x:Name="lblTotalAulas" Content="Total de Aulas Dadas:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtTotalAulas" HorizontalAlignment="Left" Margin="132,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="lblAulasAssistidas" Content="Aulas Assistidas:" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtAulasAssistidas" HorizontalAlignment="Left" Margin="132,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="lblNota1" Content="Nota 1:" HorizontalAlignment="Left" Margin="10,78,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtNota1" HorizontalAlignment="Left" Margin="132,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="lblNota2" Content="Nota 2:" HorizontalAlignment="Left" Margin="10,109,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtNota2" HorizontalAlignment="Left" Margin="132,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnSituacao" Content="Ver situação escolar" HorizontalAlignment="Left" Margin="10,142,0,0" VerticalAlignment="Top" Width="242" Click="btnSituacao_Click"/>
+
+    </Grid>
+</Window>
